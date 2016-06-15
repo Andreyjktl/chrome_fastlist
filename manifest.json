@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+"name": "Быстрый список сервисов",
+"description": "Быстрый список часто используемых сайтов и сервисов",
+"version": "1.1",
+"icons": {
+"128": "fastlist.png"
+},
+"browser_action": {
+        "default_title": "FastList",
+        "default_icon": "fastlist.png",
+        "default_popup": "popup.html"
+    },
+
+"permissions": [
+    "http://finn-it.ru/*"
+  ]
+}
