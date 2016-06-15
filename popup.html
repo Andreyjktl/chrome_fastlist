@@ -4,32 +4,54 @@
  "browser_action" field in manifest.json contains the "default_popup" key with
  value "popup.html".
  -->
+ <link href="css.css" rel="stylesheet" type="text/css"/>
 <html>
   <head>
-    <title>Р‘С‹СЃС‚СЂС‹Р№ СЃРїРёСЃРѕРє</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 800px;
-      }
-	.block{
-	float:left;
-	width:200px;
-	}
-    </style>
+    <title>Быстрый список</title>
+  
 
     <script src="popup.js"></script>
   </head>
   <body>
-    <div class="block">
-	<h2>Р РµРіРёСЃС‚СЂР°С†РёСЏ СЃР°Р№С‚РѕРІ</h2>
-	<ul>
-</div>
+    <div class="block" id="main">
+		<h4>Основное</h4>
+		<ul>
+			<li><a href="gmail.com">gmail.com</a></li>
+			<li><a href="bitrix24.ru">bitrix24</a></li>
+			<li><a href="github.com">github.com</a></li>
+		</ul>
+		<ul>
+	</div>
+    <div class="block"  id="statistics">
+		<h4>Реги после создания</h4>
+		<ul>
+			<li><a href="https://www.google.com/analytics/">Google Analytics</a></li>
+			<li><a href="http://www.google.com/webmasters">Google Webmaster</a></li>
+			<li><a href="https://metrika.yandex.ru">Яндекс Метрика</a></li>
+			<li><a href="https://webmaster.yandex.ru/">Яндекс вебмастер</a></li>
+		</ul>
+		<ul>
+	</div>
+    <div class="block"  id="hosting">
+		<h4>Хостинги</h4>
+		<ul>
+			<li><a href="reg.ru">reg.ru</a></li>
+			<li><a href="hts.ru">hts.ru</a></li>
+			<li><a href="hostinger.ru">hostinger.ru</a></li>
+			<li><a href="timeweb.ru">timeweb.ru</a></li>
+		</ul>
+		<ul>
+	</div>
+	    <div class="block"  id="study">
+		<h4>Обучалки</h4>
+		<ul>
+			<li><a href="coursera">coursera.com</a></li>
+			<li><a href="udemy.com">udemy</a></li>
+			<li><a href="intuit.ru">intuit</a></li>
+			<li><a href="www.codecademy.com">www.codecademy.com</a></li>
+		</ul>
+		<ul>
+	</div>
+
+
   </body>
